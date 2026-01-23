@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding Margin</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .pad{
+            height: 150px;
+            width: 150px;
+            padding: 2px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+
+        #first{
+            border: 2px solid;
+            background-color: skyblue;
+            box-sizing: content-box;
+        }
+
+        #second{
+            border: 5px dashed;
+            background-color: aquamarine;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div id="first" class="pad">Padding Checker</div>
+    <div id="second" class="pad">Margin Checker</div>
+</body>
+</html>
