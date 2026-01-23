@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#box1{
+    height:100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+    right:50px;
+    position: fixed;
+    z-index: 1;
+}
+.box{
+    height:100px;
+    width: 100px;
+    display: inline-block;
+    background-color: skyblue;
+}
+#head{
+    background-color: rgb(183, 172, 172);
+    height: 50px;
+    text-align: center;
+    
+}
+nav{
+    padding-top: 15px;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 10%;
+}
+#main{
+    border: 2px solid red;
+    height: 500px;
+}
+#foot{
+    background-color: bisque;
+    height: 100px;
+}
