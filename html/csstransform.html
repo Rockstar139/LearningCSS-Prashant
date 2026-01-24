@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform</title>
+    <style>
+        .box{
+            margin:10px;
+            height: 50px;
+            width: 50px;
+            border: 2px solid black;
+            border-radius: 5px;
+            background-color: palegreen;
+            position: relative;
+            top: 100px;
+            left: 100px;
+            /* transform: rotate(45deg); */
+            transition: all 1s ease-in 0s;
+        }
+        #rotate:hover{
+            transform: rotate(45deg);
+        }
+        #scale:hover{
+            transform: scale(2);
+        }
+        #translate:hover{
+            transform: translate(30px,30px);
+        }
+        #skew:hover{
+            transform: skew(45deg);
+        }
+    </style>
+</head>
+<body>
+    <div id="rotate" class="box">Rotate</div>
+    <div id="scale" class="box">Scale</div>
+    <div id="translate" class="box">translate</div>
+    <div id="skew" class="box">skew</div>
+</body>
+</html>
